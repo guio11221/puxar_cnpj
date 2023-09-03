@@ -1,0 +1,60 @@
+/* App.css */
+body {
+  background-color: #222;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  padding: 10px;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #007bff; /* Cor azul para o título */
+  text-decoration: none; /* Remover sublinhado do link */
+}
+
+.input-container {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #333; /* Cor de fundo do input */
+  color: #fff; /* Cor do texto do input */
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.result-container {
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #333; /* Cor de fundo da área de resultados */
+  text-align: left;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: auto; /* Adicionando uma barra de rolagem caso os resultados sejam longos */
+}
+
+.result-container h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #007bff; /* Cor azul para o título da área de resultados */
+}
